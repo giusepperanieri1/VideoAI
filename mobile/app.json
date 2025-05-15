@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "VideoGenAI",
+    "slug": "videogenai",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./src/assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./src/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.videogenai.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./src/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.videogenai.app"
+    },
+    "web": {
+      "favicon": "./src/assets/favicon.png"
+    },
+    "scheme": "videogenai",
+    "plugins": [
+      "expo-secure-store",
+      "expo-camera",
+      "expo-media-library",
+      "expo-image-picker"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "videogenai"
+      }
+    }
+  }
+}
